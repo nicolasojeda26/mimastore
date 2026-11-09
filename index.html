@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f5ef" />
+  <meta name="description" content="MiMa Store — moda femenina, envíos a todo el país y 3 cuotas sin interés." />
+  <title>MiMa Store — Moda femenina en Corrientes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement"><span>ENVÍOS A TODO EL PAÍS</span><i>✳</i><span>3 CUOTAS SIN INTERÉS</span><i>✳</i><span>EFECTIVO · TRANSFERENCIA · TARJETAS</span></div>
+  <header class="site-header">
+    <button class="icon-button mobile-menu" aria-label="Abrir menú" id="menu-toggle"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav"><a href="#novedades">Novedades</a><a href="#coleccion">Ropa</a><a href="#esencia">Visitá el local</a></nav>
+    <a class="brand" href="#inicio" aria-label="Mima Store inicio"><span>MiMa</span><small>STORE · CORRIENTES</small></a>
+    <div class="header-actions"><button class="icon-button search-toggle" aria-label="Buscar" id="search-toggle"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 4.2 4.2"/></svg></button><button class="bag-button" id="open-cart" aria-label="Abrir carrito"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span>Bolsa</span><b id="cart-count">0</b></button></div>
+  </header>
+  <div class="search-bar" id="search-bar"><input type="search" id="search-input" placeholder="¿Qué estás buscando?" aria-label="Buscar productos"/><button id="close-search" aria-label="Cerrar búsqueda">✕</button></div>
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-copy"><span class="eyebrow"><i></i> MODA FEMENINA · CORRIENTES</span><h1>Un look<br>bien <em>vos.</em></h1><p>Prendas con onda para armar ese look que ya te imaginaste. Encontrá tus favoritas en Mima.</p><a class="button button-dark" href="#coleccion">Ver lo nuevo <span>↗</span></a><div class="hero-note"><span class="note-star">✳</span><span>MiMa Store<br><em>te queda cerca.</em></span></div></div>
+      <div class="hero-photo"><img src="assets/mima-top-blanco.jpg" alt="Top blanco de una publicación de MiMa Store"/><div class="photo-tag">NUEVO<br><b>EN MIMA</b><span>♡</span></div><div class="hero-caption">HIPÓLITO YRIGOYEN 1942 <span>CORRIENTES CAPITAL</span></div></div>
+      <div class="hero-side">MIMA STORE <span>♡</span> MIMA STORE <span>♡</span></div>
+    </section>
+    <div class="service-strip"><div><span class="service-icon">↗</span><p><b>Envíos a todo el país</b><small>También a domicilio en Corrientes</small></p></div><div><span class="service-icon">3×</span><p><b>3 cuotas sin interés</b><small>Pagá como te quede más cómodo</small></p></div><div><span class="service-icon">♡</span><p><b>Te esperamos en el local</b><small>Hipólito Yrigoyen 1942 · Corrientes</small></p></div></div>
+    <div class="ticker" aria-label="Encontrá tu próximo look en Mima"><div class="ticker-track">NUEVOS INGRESOS <span>♡</span> TU PRÓXIMO LOOK ESTÁ EN MIMA <span>♡</span> NUEVOS INGRESOS <span>♡</span> TU PRÓXIMO LOOK ESTÁ EN MIMA <span>♡</span></div></div>
+    <section class="collection section-wrap" id="coleccion">
+      <div class="section-heading"><div><span class="eyebrow">RECIÉN LLEGADO A MIMA</span><h2>Ese algo que <em>buscabas.</em></h2></div><a class="text-link" href="https://www.instagram.com/mima.storectes/" target="_blank" rel="noreferrer">Ver novedades en Instagram <span>↗</span></a></div>
+      <div class="category-row" id="category-row"><button class="category active" data-filter="Todos">Todo <span>05</span></button><button class="category" data-filter="Tops">Tops <span>02</span></button><button class="category" data-filter="Shorts">Shorts <span>02</span></button><button class="category" data-filter="Calzado">Calzado <span>01</span></button><div class="sort-label">NUEVOS INGRESOS <span>♡</span></div></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="demo-note">Fotos de publicaciones de MiMa Store · nombres y precios de muestra</div>
+    </section>
+    <section class="quote-band" id="esencia"><div class="quote-mark">♡</div><p>Tu próximo look favorito<br><em>te está esperando en Mima.</em></p><span>MIMA STORE · CORRIENTES</span><div class="quote-flower">♡</div></section>
+    <section class="story section-wrap" id="novedades"><div class="story-photo"><img src="assets/mima-short-negro.jpg" alt="Short símil cuero negro de una publicación de MiMa Store"><span class="story-stamp">MIMA<br><i>♡</i><br>CTES</span></div><div class="story-copy"><span class="eyebrow">VENÍ A CONOCERNOS</span><h2>Tu tienda de moda<br>en <em>Corrientes.</em></h2><p>Pasá a ver los nuevos ingresos, probate tus favoritos y encontrá ese look que tenías en mente. Estamos en Hipólito Yrigoyen 1942.</p><p class="store-hours"><b>Te esperamos</b><br>Lun a sáb · 10 a 13 h y 17:30 a 21 h</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Hip%C3%B3lito+Yrigoyen+1942%2C+Corrientes%2C+Argentina" target="_blank" rel="noreferrer">Cómo llegar <span>↗</span></a><div class="story-doodle">♡</div></div></section>
+    <section class="newsletter"><div><span class="eyebrow">NOVEDADES DE MIMA</span><h2>Lo nuevo, <em>primero.</em></h2></div><form id="newsletter-form"><label class="sr-only" for="email">Tu email</label><input id="email" type="email" placeholder="Dejanos tu email" required><button type="submit" aria-label="Suscribirme">↗</button></form><small id="newsletter-message">Recibí ingresos, promos y novedades de la tienda.</small></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span>MiMa</span><small>STORE · CORRIENTES</small></a><p>Moda femenina · Envíos a todo el país <span>♡</span></p><div><a href="https://www.instagram.com/mima.storectes/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://wa.me/message/TQD3LFMSIVB2G1" target="_blank" rel="noreferrer">WhatsApp ↗</a><a href="#coleccion">Volver arriba ↑</a></div><small class="footer-copy">© 2026 MIMA STORE · DEMO DE TIENDA ONLINE</small></footer>
+  <div class="cart-overlay" id="cart-overlay"></div><aside class="cart-drawer" id="cart-drawer" aria-label="Tu bolsa"><div class="cart-head"><div><span class="eyebrow">MIMA STORE</span><h3>Tu bolsa <span id="cart-heading-count">(0)</span></h3></div><button class="icon-button" id="close-cart" aria-label="Cerrar bolsa">✕</button></div><div class="cart-items" id="cart-items"><div class="empty-cart"><span>✳</span><p>Tu bolsa está esperando<br>ese algo especial.</p><a href="#coleccion" class="button button-dark" id="continue-shopping">Ver colección</a></div></div><div class="cart-footer" id="cart-footer"><div><span>Subtotal</span><b id="cart-subtotal">$0</b></div><p>Los envíos se coordinan al confirmar el pedido.</p><button class="button button-dark checkout-button" id="checkout">Consultar pedido por WhatsApp ↗</button></div></aside>
+  <div class="toast" id="toast">Agregado a tu bolsa <span>✳</span></div>
+  <script src="app.js"></script>
+</body>
+</html>
